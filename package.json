@@ -7,7 +7,7 @@
     "type": "git",
     "url": "https://github.com/bentorfs/angular-bootstrap-multiselect.git"
   },
-  "main": "dist/angular-bootstrap-multiselect.js",
+  "main": "dist/angular-bootstrap-multiselect.min.js",
   "devDependencies": {
     "@babel/core": "^7.14.3",
     "@babel/preset-env": "^7.14.2",
