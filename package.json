@@ -1,0 +1,27 @@
+{
+  "name": "angular-bootstrap-multiselect",
+  "version": "1.1.11",
+  "homepage": "http://bentorfs.github.io/angular-bootstrap-multiselect/",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bentorfs/angular-bootstrap-multiselect.git"
+  },
+  "main": "dist/angular-bootstrap-multiselect.js",
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.2",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-html2js": "^0.4.2",
+    "gulp-ng-annotate": "^2.1.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-terser": "^2.0.1",
+    "vinyl-paths": "^3.0.1"
+  },
+  "scripts": {
+    "build": "gulp"
+  }
+}
