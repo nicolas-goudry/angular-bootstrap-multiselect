@@ -1,6 +1,6 @@
 {
   "name": "@nicolas-goudry/angular-bootstrap-multiselect",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Custom derivate of original project for Plüm Backoffice",
   "main": "dist/angular-bootstrap-multiselect.min.js",
   "files": [
