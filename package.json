@@ -11,11 +11,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bentorfs/angular-bootstrap-multiselect.git"
+    "url": "git+https://github.com/nicolas-goudry/angular-bootstrap-multiselect.git"
   },
   "scripts": {
     "build": "gulp"
   },
+  "keywords": [
+    "angular",
+    "angularjs",
+    "bootstrap",
+    "multi-select",
+    "multiselect",
+    "select"
+  ],
   "license": "MIT",
   "author": {
     "name": "Ben Torfs",
