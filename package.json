@@ -1,13 +1,27 @@
 {
   "name": "angular-bootstrap-multiselect",
   "version": "1.1.11",
-  "homepage": "http://bentorfs.github.io/angular-bootstrap-multiselect/",
-  "license": "MIT",
+  "description": "Custom derivate of original project for Plüm Backoffice",
+  "main": "dist/angular-bootstrap-multiselect.min.js",
+  "files": [
+    "dist/*"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/bentorfs/angular-bootstrap-multiselect.git"
   },
-  "main": "dist/angular-bootstrap-multiselect.min.js",
+  "scripts": {
+    "build": "gulp"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Ben Torfs",
+    "url": "https://github.com/bentorfs",
+    "email": "bentorfs@gmail.com"
+  },
   "devDependencies": {
     "@babel/core": "7.14.3",
     "@babel/preset-env": "7.14.2",
@@ -20,8 +34,5 @@
     "gulp-rename": "2.0.0",
     "gulp-terser": "2.0.1",
     "vinyl-paths": "3.0.1"
-  },
-  "scripts": {
-    "build": "gulp"
   }
 }
